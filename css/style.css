@@ -34,6 +34,40 @@ img {
 
 body {}
 
+    .home {
+        width: 100%;
+        margin: 0;
+    }
+
+.aboutfoto {
+    width: 100vw;
+  }
+
+  .about {
+    width: 100%;
+    margin: 0;
+  }
+
+  .aboutkaders {
+    widows: 100%;
+    margin: 0;
+  }
+
+  .boeknu {
+    width: 100%;
+    margin: 0;
+  }
+
+  .contact {
+    width: 100%;
+    margin: 0;
+  }
+
+  header {
+    width: 100%;
+    margin: 0;
+  }
+
 /* =========================================
                 Navigation
 ============================================ */

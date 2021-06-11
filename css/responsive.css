@@ -29,6 +29,25 @@
   	width: 100vw;
   }
 
+  .about {
+    width: 100%;
+    margin: 0;
+  }
+
+  .aboutkaders {
+    widows: 100%;
+    margin: 0;
+  }
+
+  .boeknu {
+    width: 100%;
+    margin: 0;
+  }
+
+  .contact {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 @media (max-width: 500px) {
@@ -37,6 +56,10 @@
 		max-width: 100%;
 		padding: 0;
 	}
+
+    .dagplanning {
+    height: 400vw;
+    }
 }
 
 
