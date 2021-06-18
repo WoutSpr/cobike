@@ -96,6 +96,11 @@
     #isotope-filters button {
         padding-right: 15px;
     }
+
+    .boek-ruit {
+        width: 600px;
+        height: 600px;
+    }
 }
 
 @media (max-width: 900px) {
