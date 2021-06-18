@@ -603,7 +603,7 @@ ul.navbar-nav>li>a:focus {
     background: transparent;
     -webkit-box-shadow: none;
     box-shadow: none;
-    padding-right: 35px;
+    padding-right: 16px;
     outline: 0;
 }
 
