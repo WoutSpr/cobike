@@ -101,6 +101,32 @@
         width: 600px;
         height: 600px;
     }
+
+    .contact-formulier {
+        padding: auto 10px !important;
+        justify-content: flex-start;
+    }
+
+    .contact-form {
+        height: auto;
+    }
+
+    .label2 {
+        width: 90%;
+        text-align: start;
+    }
+
+    .lijntje {
+        width: 90%;
+    }
+
+    .bericht {
+        margin-left: 10px;
+    }
+
+    .textbox-lijntje {
+        display: block;
+    }
 }
 
 @media (max-width: 900px) {

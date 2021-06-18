@@ -928,6 +928,8 @@ ul.navbar-nav>li>a:focus {
 .bericht {
     align-items: flex-start;
     margin-right: 5px;
+    color: #3A3B3C;
+    font-size: 1.5rem;
 }
 
 .lijnspeciaal {
