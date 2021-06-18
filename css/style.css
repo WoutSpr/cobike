@@ -765,6 +765,10 @@ ul.navbar-nav>li>a:focus {
     opacity: 100%
 }
 
+.boeken-titel {
+    font-size: 4rem !important;
+}
+
 .boek-inleiding h5 {
     font-family: 'Amiko', sans-serif;
     font-weight: 400;
@@ -782,11 +786,13 @@ ul.navbar-nav>li>a:focus {
     padding: 15px 20px;
 }
 
-.formulier #label {
+.formulier .label {
     font-family: 'Mukta Vaani', sans-serif;
     font-weight: 700;
     color: #C5A260;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    padding: 3px 0;
+    text-align: start;
 }
 
 .formulier #parklocatie {
@@ -892,13 +898,22 @@ ul.navbar-nav>li>a:focus {
     padding: 10%
 }
 
-.label {
+.label2 {
     text-align: end;
     width: 30%;
     color: #3A3B3C;
+    font-size: 1.5rem;
+}
+
+.textbox-lijntje {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-right: 10%;
 }
 
 .lijntje {
+    margin-left: 10px;
     width: 50%;
     border-top: none;
     border-left: none;
@@ -907,8 +922,13 @@ ul.navbar-nav>li>a:focus {
     border-width: 2px;
 }
 
-#bericht {
+.bericht {
     align-items: flex-start;
+    margin-right: 5px;
+}
+
+.lijnspeciaal {
+    width: 53%;
 }
 
 .contact-space-between {
