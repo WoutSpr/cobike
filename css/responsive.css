@@ -2,9 +2,9 @@
                 About
 ============================================ */
 
-@media screen and (max-width: 750px) {
+@media (max-width: 750px) {
 
-    * {
+    .navbar-header {
         max-width: 100vw;
     }
 
