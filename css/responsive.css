@@ -90,6 +90,14 @@
     }
 }
 
+@media (max-width: 450px) {
+
+    #isotope-filters button {
+        padding-right: 15px;
+    }
+}
+
+
 /* =========================================
                 logo
 ============================================ */
@@ -378,6 +386,15 @@
     /* Vertical heading */
     .vertical-heading {
         text-align: center;
+    }
+
+    #isotope-filters {
+        display: flex;
+        justify-content: center;
+    }
+
+    #isotope-filters .btn-specialleke {
+        padding-right: 0;
     }
 
     .vertical-heading h5 {
