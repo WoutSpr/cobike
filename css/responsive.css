@@ -105,13 +105,13 @@
 
 @media (max-width: 900px) {
 
-    .service-tab{
+    .service-tab {
         width: 80vw;
         margin: auto;
         overflow: hidden;
     }
 
-    .service-tab img{
+    .service-tab img {
         max-width: 80%;
     }
 
@@ -122,13 +122,13 @@
 
 @media (max-width: 450px) {
 
-    .service-tab{
+    .service-tab {
         width: 80vw;
         margin: auto;
         overflow: hidden;
     }
 
-    .service-tab img{
+    .service-tab img {
         max-width: 100%;
     }
 

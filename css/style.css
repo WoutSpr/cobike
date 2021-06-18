@@ -34,39 +34,39 @@ img {
 
 body {}
 
-    .home {
-        width: 100%;
-        margin: 0;
-    }
+.home {
+    width: 100%;
+    margin: 0;
+}
 
 .aboutfoto {
     width: 100vw;
-  }
+}
 
-  .about {
+.about {
     width: 100%;
     margin: 0;
-  }
+}
 
-  .aboutkaders {
+.aboutkaders {
     width: 100%;
     margin: 0;
-  }
+}
 
-  .boeknu {
+.boeknu {
     width: 100%;
     margin: 0;
-  }
+}
 
-  .contact {
+.contact {
     width: 100%;
     margin: 0;
-  }
+}
 
-  header {
+header {
     width: 100%;
     margin: 0;
-  }
+}
 
 /* =========================================
                 Navigation
@@ -443,6 +443,7 @@ ul.navbar-nav>li>a:focus {
 
 .modal {
     z-index: 2000;
+    -webkit-overflow-scrolling: touch !important;
 }
 
 /* =========================================
@@ -553,6 +554,7 @@ ul.navbar-nav>li>a:focus {
     margin-top: 50px;
     color: #fff;
 }
+
 .row.no-gutters [class*=col-] {
     padding: 0;
 }
