@@ -58,12 +58,26 @@
 @media (max-width: 500px) {
 
     * {
-        max-width: 100%;
         padding: 0;
     }
 
     .dagplanning {
         margin: auto;
+    }
+
+    .main-logo {
+        width: 80vw;
+        height: auto;
+
+    }
+
+    .main-title {
+        text-align: center;
+    }
+
+    .main-btn {
+        width: auto;
+        padding: 0 20px;
     }
 }
 
@@ -71,18 +85,19 @@
 
     .about {
         display: block;
-        height: 150vh;
+        height: 100%;
     }
 }
 
-
-
-
 /* =========================================
-                Boeken
+                logo
 ============================================ */
 
-@media screen and (max-width: 700px) {}
+@media screen and (max-width: 1300px) {
+    #logo {
+        margin-left: 10%;
+    }
+}
 
 /* =========================================
                 Contact
@@ -110,7 +125,7 @@
     cursor: pointer;
     z-index: 2;
     position: absolute;
-    right: 0;
+    right: 20px;
     top: 6px;
     /* hide mobile nav open btn */
     display: none;

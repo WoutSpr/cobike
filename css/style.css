@@ -250,7 +250,7 @@ ul.navbar-nav>li>a:focus {
 }
 
 .content {
-    width: 100%;
+    width: auto;
     z-index: 2;
     position: absolute;
 }
