@@ -86,7 +86,6 @@
 
     .about {
         display: block;
-        height: 100%;
     }
 }
 
@@ -514,5 +513,15 @@
 
     #services-tabs h3 {
         font-size: 28px;
+    }
+}
+
+/* =========================================
+                Iphone
+============================================ */
+
+@media (max-width: 400px) {
+    #gif {
+        margin-top: 80px;
     }
 }
