@@ -115,6 +115,32 @@
     }
 }
 
+@media (max-width: 400px) {
+
+    .service-tab{
+        width: 80vw;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .service-tab img{
+        max-width: 100%;
+    }
+
+    .service-tab .tab-bg {
+        width: 100%;
+    }
+
+    .formulier-width2 {
+        width: 250px;
+        flex-direction: column;
+    }
+
+    .form-width2-margin {
+        margin-bottom: 20px;
+    }
+}
+
 
 /* =========================================
                 logo
