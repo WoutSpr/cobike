@@ -57,8 +57,9 @@
 
 @media (max-width: 500px) {
 
-    * {
+    main {
         padding: 0;
+        max-width: 100%;
     }
 
     .dagplanning {
@@ -96,6 +97,12 @@
 @media screen and (max-width: 1300px) {
     #logo {
         margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 900) {
+    #changemtb {
+        transform: translateX(200px);
     }
 }
 

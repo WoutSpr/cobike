@@ -245,10 +245,6 @@ ul.navbar-nav>li>a:focus {
     justify-content: center;
 }
 
-.mountainbiker {
-    z-index: 1.5;
-}
-
 .content {
     width: auto;
     z-index: 2;
