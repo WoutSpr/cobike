@@ -49,7 +49,7 @@ body {}
   }
 
   .aboutkaders {
-    widows: 100%;
+    width: 100%;
     margin: 0;
   }
 
@@ -442,6 +442,10 @@ ul.navbar-nav>li>a:focus {
     width: 100%;
 }
 
+.modal {
+    z-index: 2000;
+}
+
 /* =========================================
     Services 02 (Responsive Tabs)
 ============================================ */
@@ -697,6 +701,10 @@ ul.navbar-nav>li>a:focus {
     opacity: 1;
 }
 
+#portfolio-wrapper {
+    height: auto;
+}
+
 /* =========================================
                 Dagplanning
 ============================================ */
@@ -704,7 +712,6 @@ ul.navbar-nav>li>a:focus {
 .dagplanning {
     background-color: #112D44;
     width: 99vw;
-    height: 150vh;
     z-index: 20;
 }
 
