@@ -99,7 +99,8 @@
 
     .boek-ruit {
         width: 600px;
-        height: 600px;
+        height: 800px;
+        margin-top: -50px;
     }
 
     .contact-formulier {
@@ -126,6 +127,15 @@
 
     .textbox-lijntje {
         display: block;
+    }
+
+    #datum {
+        width: 160px;
+    }
+
+    .label .datum {
+        width: 200px !important;
+        margin-right: 300px;
     }
 }
 
