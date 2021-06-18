@@ -626,8 +626,8 @@ ul.navbar-nav>li>a:focus {
 /* Zoom Effect */
 
 .portfolio-item img {
-    width: 50%;
-    height: 50%;
+    width: 200px;
+    height: 200px;
     -webkit-transition: -webkit-transform .5s ease;
     transition: -webkit-transform .5s ease;
     transition: transform .5s ease;
