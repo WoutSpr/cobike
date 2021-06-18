@@ -2,7 +2,7 @@
                 About
 ============================================ */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 750px) {
 
     * {
         max-width: 100vw;
@@ -39,7 +39,9 @@
         width: 100% !important;
         margin: 0 !important;
     }
+}
 
+@media (max-width: 1000px) {
     .boeknu {
         width: 100% !important;
         margin: 0 !important;
