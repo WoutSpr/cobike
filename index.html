@@ -597,13 +597,13 @@
                 <div class="boek-ruit"></div>
                 <div class="boek-info wow fadeInLeft">
                     <div class="boek-inleiding">
-                        <h1>Boek nu <br>Bespaar geld</h1>
-                        <h5>Bespaar tot €20 door meer dan een maand <br>op voorhand te boeken.</h5>
+                        <h1 class="boeken-titel">Boek nu <br>Bespaar geld</h1>
+                        <h4>Bespaar tot €20 door meer dan een maand <br>op voorhand te boeken.</h4>
                     </div>
                     <div class="boek-formulier">
                         <form action="mailto: wout.sprangers@gmail.com">
                             <div class="formulier formulier-width1">
-                                <label for="label" id="label">Locatie</label>
+                                <label for="label" class="label">Locatie</label>
                                 <input type="text" name="parklocatie" id="parklocatie" list="datapark" placeholder="Kies hier een park">
                                 <datalist id="datapark">
                                     <option value="Bikepark Be-Mine, Beringen"></option>
@@ -615,11 +615,11 @@
                             </div>
                             <div class="formulier formulier-width2">
                                 <div class="form-width2-margin">
-                                    <label for="label" id="label">Datum</label>
+                                    <label for="label" class="label">Datum</label>
                                     <input type="date" name="parklocatie" id="datum">
                                 </div>
                                 <div class="form-width2-margin">
-                                    <label for="label" id="label">Aantal pers.</label>
+                                    <label for="label" class="label">Aantal pers.</label>
                                     <input type="text" name="personen" id="personen" list="aantalpers" placeholder="Kies hier uw groep">
                                     <datalist id="aantalpers">
                                         <option value="1 persoon"></option>
@@ -635,7 +635,7 @@
                                     </datalist>
                                 </div>
                                 <div>
-                                    <label for="label" id="label">Programma</label>
+                                    <label for="label" class="label">Programma</label>
                                     <input type="text" name="programma" id="programma" list="programma-mogelijkheden" placeholder="Kies hier uw programma">
                                     <datalist id="programma-mogelijkheden">
                                         <option value="Beginners"></option>
@@ -647,7 +647,7 @@
                             </div>
                             <div class="formulier formulier-width3">
                                 <div>
-                                    <label for="label" id="label">Kostprijs</label>
+                                    <label for="label" class="label">Kostprijs</label>
                                     <input type="text" name="kostprijs" id="kostprijs" list="geld" value="€65 per persoon">
                                     <datalist id="geld">
                                         <option value="€65 per persoon"></option>
@@ -671,20 +671,20 @@
                     <div class="contact-formulier">
                         <form action="mailto: wout.sprangers@gmail.com">
                             <div class="contact-space-between">
-                                <label for="label" class="label">Volledige naam:</label>
+                                <label for="label" class="label2">Volledige naam:</label>
                                 <input type="text" id="naam" name="naam" class="lijntje">
                             </div>
                             <div class="contact-space-between">
-                                <label for="label" class="label">E-mail:</label>
+                                <label for="label" class="label2">E-mail:</label>
                                 <input type="text" id="email" name="email" class="lijntje">
                             </div>
                             <div class="contact-space-between">
-                                <label for="label" class="label">Telefoonnummer:</label>
+                                <label for="label" class="label2">Telefoonnummer:</label>
                                 <input type="text" id="gsm" name="gsm" class="lijntje">
                             </div>
-                            <div class="contact-space-between">
-                                <label for="label" class="label bericht">Bericht:</label>
-                                <textarea name="bericht" id="bericht" cols="30" rows="5" class="lijntje"></textarea>
+                            <div class="contact-space-between textbox-lijntje">
+                                <label for="label" class="label2 bericht">Bericht:</label>
+                                <textarea name="bericht" id="bericht" cols="30" rows="5" class="lijntje lijnspeciaal"></textarea>
                             </div>
                             <div class="contact-space-between versturen">
                                 <input type="submit" value="Versturen" id="versturen">
