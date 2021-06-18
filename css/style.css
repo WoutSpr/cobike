@@ -37,35 +37,42 @@ body {}
 .home {
     width: 100%;
     margin: 0;
+    max-width: 100%;
 }
 
 .aboutfoto {
     width: 100vw;
+    max-width: 100%;
 }
 
 .about {
     width: 100%;
     margin: 0;
+    max-width: 100%;
 }
 
 .aboutkaders {
     width: 100%;
     margin: 0;
+    max-width: 100%;
 }
 
 .boeknu {
     width: 100%;
     margin: 0;
+    max-width: 100%;
 }
 
 .contact {
     width: 100%;
     margin: 0;
+    max-width: 100%;
 }
 
 header {
     width: 100%;
     margin: 0;
+    max-width: 100%;
 }
 
 /* =========================================
