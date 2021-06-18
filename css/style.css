@@ -625,7 +625,7 @@ ul.navbar-nav>li>a:focus {
 
 .portfolio-item img {
     width: 50%;
-    height: auto;
+    height: 50%;
     -webkit-transition: -webkit-transform .5s ease;
     transition: -webkit-transform .5s ease;
     transition: transform .5s ease;

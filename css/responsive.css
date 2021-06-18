@@ -98,6 +98,23 @@
     }
 }
 
+@media (max-width: 900px) {
+
+    .service-tab{
+        width: 80vw;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .service-tab img{
+        max-width: 80%;
+    }
+
+    .service-tab .tab-bg {
+        width: 80vw;
+    }
+}
+
 
 /* =========================================
                 logo
