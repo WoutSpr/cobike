@@ -297,6 +297,18 @@ ul.navbar-nav>li>a:focus {
                 About
 ============================================ */
 
+#about-tab-1 {
+    display: none;
+}
+
+#about-tab-2 {
+    display: none;
+}
+
+#about-tab-3 {
+    display: none;
+}
+
 .about {
     background-color: #E6E8E9;
     padding: 0 7vw;
@@ -398,7 +410,7 @@ ul.navbar-nav>li>a:focus {
     font-weight: 900;
     font-size: 1.5em;
     color: #112D44;
-    text-align: center;
+    text-align: start;
     margin: 0 0 10px 0 !important;
 }
 
@@ -407,6 +419,10 @@ ul.navbar-nav>li>a:focus {
     font-weight: 700;
     font-size: 1em;
     color: #C39F58;
+}
+
+.about-text-margin {
+    padding-right: 50px;
 }
 
 .aboutkader .abouttekst {
@@ -442,9 +458,9 @@ ul.navbar-nav>li>a:focus {
 
 .about-kader-tussentitel {
     font-family: 'Mukta Vaani', sans-serif;
-    font-weight: 700;
-    font-size: 1em;
-    color: #112D44;
+    font-weight: 700 !important;
+    font-size: 1.5em !important;
+    color: #112D44 !important;
 }
 
 #foto-fiets {
@@ -513,8 +529,8 @@ ul.navbar-nav>li>a:focus {
     transition: border-color 300ms linear;
 }
 
-.service-tab .col-md-6 {
-    padding: 0;
+.service-tab-margin {
+    margin-top: 100px;
 }
 
 .service-tab img {
