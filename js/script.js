@@ -118,6 +118,33 @@ let scene = new ScrollMagic.Scene({
                Responsive Tabs
 ============================================ */
 
+function myFunction1() {
+  var x = document.getElementById("about-tab-1");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function myFunction2() {
+  var x = document.getElementById("about-tab-2");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function myFunction3() {
+  var x = document.getElementById("about-tab-3");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
 $(function () {
 
     $("#services-tabs").responsiveTabs({
@@ -126,6 +153,13 @@ $(function () {
 
 });
 
+$(function () {
+
+    $("#about-tabs").responsiveTabs({
+        animation: 'slide'
+    });
+
+});
 
 $(window).on('load', function () {
 
@@ -158,3 +192,10 @@ $(window).on('load', function () {
         $(this).addClass('active');
     });
 });
+
+/* =========================================
+               Modal
+============================================ */
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
