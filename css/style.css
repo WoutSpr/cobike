@@ -405,6 +405,10 @@ ul.navbar-nav>li>a:focus {
     align-items: center;
 }
 
+.aboutkadertekst:hover {
+    border-color: #f4c613;
+}
+
 .abouttitel {
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
@@ -539,9 +543,12 @@ ul.navbar-nav>li>a:focus {
 }
 
 .service-tab .tab-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background: #fff;
-    padding: 60px 30px;
-    min-height: 380px;
+    padding: 0 30px;
+    min-height: 390px;
 }
 
 .service-tab h2 {
